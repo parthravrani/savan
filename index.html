@@ -398,7 +398,7 @@
 				];
 		
 			imgs.forEach(function(data){
-				var ele = '<div class="grid-item element-item p_one_third"><a href="' + data.link + '"><img src="' + data.Image + '" alt="" /><div class="portfolio-text-holder" style="display: block;height: fit-content;"><p class="portfolio-text" style="padding: 10px;">BUY NOW <span style="color: grey;padding-left: 6px;font-size: 14px;">₹' + data.price + '/-</span></p></div></a></div>'
+				var ele = '<div class="grid-item element-item p_one_third"><a href="' + data.link + '"><img src="' + data.Image + '" alt="" /><div class="portfolio-text-holder" style="display: block;height: fit-content;"><p class="portfolio-text" style="padding: 10px;color: black;font-weight: normal;">BUY NOW <span style="color: red;padding-left: 6px;font-size: 20px;font-weight: bold;">₹' + data.price + '/-</span></p></div></a></div>'
 				document.getElementById('portfolio').innerHTML += ele;
 			});
 		</script>
