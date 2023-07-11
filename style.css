@@ -539,36 +539,6 @@ div.pp_default .pp_previous:hover
     padding: 0 1px;
 }
 
-
-@keyframes "pulse" {
-    0% { transform: scale(1.1); }
-    70% { transform: scale(0.8,0.8); }
-    80% { transform: scale(0.9,0.9); }
-    100% { transform: scale(1.1);  }
-}
-
-@-moz-keyframes pulse {
-    0% { transform: scale(1.1); }
-    70% { transform: scale(0.8,0.8); }
-    80% { transform: scale(0.9,0.9); }
-    100% { transform: scale(1.1);  }
-}
-
-@-webkit-keyframes "pulse" {
-    0% { transform: scale(1.1); }
-    70% { transform: scale(0.8,0.8); }
-    80% { transform: scale(0.9,0.9); }
-    100% { transform: scale(1.1);  }
-}
-
-@-ms-keyframes "pulse" {
-    0% { transform: scale(1.1); }
-    70% { transform: scale(0.8,0.8); }
-    80% { transform: scale(0.9,0.9); }
-    100% { transform: scale(1.1);  }
-}
-
-
 .page-desc
 {
     color: #7e7e7e;
