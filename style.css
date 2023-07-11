@@ -921,7 +921,7 @@ div.pp_default .pp_previous:hover
     font-size: 20px;
     background-color: white;
     text-align: center;   
-    display: none;    
+    display: flex;    
 }
 
 .portfolio-text
