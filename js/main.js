@@ -55,15 +55,15 @@ jQuery(document).ready(function () {
 
         //Fix for portfolio item text
         jQuery('.portfolio-text-holder').each(function () {
-            jQuery(this).find('p.portfolio-text').css('margin-top', jQuery(this).height() / 2 - 20);
+            jQuery(this).css('margin-top', jQuery(this).parent().height() / 1 - 100);
         });
 
         //Fix for portfolio hover text fade in/out
-        jQuery('.grid-item a').hover(function () {
+        /*jQuery('.grid-item a').hover(function () {
             jQuery(this).find('.portfolio-text-holder').fadeIn('fast');
         }, function () {
             jQuery(this).find('.portfolio-text-holder').fadeOut('fast');
-        });
+        });*/
     });
 
     //Fix for default menu
